@@ -1,0 +1,11 @@
+.button {
+    display: flex;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 12px;
+    font-size: 12px;
+  }
+ .button:hover{
+    color: red;
+    font-size: 20px;
+  }
