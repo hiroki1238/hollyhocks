@@ -21,7 +21,6 @@ function App() {
         >
           WED について
         </a>
-        <button>👍</button>
       </header>
     </div>
   );
