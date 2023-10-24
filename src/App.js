@@ -1,9 +1,7 @@
+import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
 
 function App() {
-  let [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <header className="App-header bg-pastel-blue">
@@ -23,20 +21,8 @@ function App() {
         >
           WED について
         </a>
-        <p
-          className="text-pastel-purple text-2xl bg-pastel-gray p-1 m-2 rounded-lg hover:text-4xl"
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          👍{count}
-        </p>
+        <button>👍</button>
       </header>
-      <img
-        src="https://iconbu.com/wp-content/uploads/2019/09/01-12.png"
-        className="App-logo"
-        alt="logo"
-      />
     </div>
   );
 }
